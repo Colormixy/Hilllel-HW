@@ -18,17 +18,8 @@ public class HomeWorkTwo {
 
     }
     public static int wordsCount(String str) {
-
-        int count = 1;
-
-        for (int i = 0; i < str.length() - 1; i++)
-        {
-            if ((str.charAt(i) == ' ') && (str.charAt(i + 1) != ' '))
-            {
-                count++;
-            }
-        }
-        return count;
+        int value = str.split(" ").length;
+        return value;
     }
 
     public static boolean isPalindrome(String str_2) {
