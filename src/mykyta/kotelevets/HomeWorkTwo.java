@@ -9,7 +9,7 @@ public class HomeWorkTwo {
         // вирішив не додавати сканер, тому що у завданні
         // не було сказано про нього, але можу переробити зі сканером
         boolean palindrome = isPalindrome(str_2);
-        System.out.println("Is the word 'LOL' a palindrome? - " + palindrome);
+        System.out.println("Is the word" + str_2 + "a palindrome? - " + palindrome);
     }
 
     public static int wordsCount(String str) {
