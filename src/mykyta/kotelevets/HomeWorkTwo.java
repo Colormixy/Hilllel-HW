@@ -13,8 +13,8 @@ public class HomeWorkTwo {
     }
 
     public static int wordsCount(String str) {
-        int value = str.split(" ").length;
-        return value;
+        String[] value = str.split("\\s+");
+        return value.length;
     }
 
     public static boolean isPalindrome(String str_2) {
